@@ -1,0 +1,7 @@
+<!--components/nav/nav.wxml-->
+<view class="nav" enable-flex>
+  <view class="nav-item"  wx:for="{{navList}}" wx:key="index">
+    <image class="nav-icon" src="{{item.icon}}" />
+    <text class="nav-text">{{item.title}}</text>
+  </view>
+</view>

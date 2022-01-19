@@ -1,0 +1,6 @@
+<!--components/title/title.wxml-->
+<view class="title" enable-flex>
+     <text class="title-content">1000万消费保障</text> 
+     <text class="title-content">7天无理由退货</text> 
+     <text class="title-content">30秒极速响应</text> 
+</view>

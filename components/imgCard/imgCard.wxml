@@ -1,0 +1,9 @@
+<!--components/imgCard/imgCard.wxml-->
+<view class="vpt-img-card">
+    <view>
+    <image></image>
+    <cover-view>
+    123
+    </cover-view>
+    </view>
+</view>

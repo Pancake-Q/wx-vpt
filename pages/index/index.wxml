@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="head">
+        <nav navList="{{navList}}"></nav>
+    </view>
+    <view class="body">
+        <title></title>
+        <imgCard></imgCard>
+    </view>
+
+
+</view>
