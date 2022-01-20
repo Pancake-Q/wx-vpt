@@ -1,0 +1,15 @@
+/* pages/home/components/imgFall/imgFall.wxss */
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10rpx;
+  
+}
+
+.img {
+  width: 40vw;
+  height: 40vw;
+}

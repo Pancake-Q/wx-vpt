@@ -1,0 +1,16 @@
+<!--pages/home/components/imgFall/imgFall.wxml-->
+
+
+<view class="container">
+
+  <navigator class="item" wx:for="{{list}}" wx:key="path">
+  
+    <view class="img" style="background-image: url({{item.img}})">
+    
+    </view>
+    <text>{{item.title}}</text>
+
+  </navigator>
+
+</view>
+

@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/classification/classification"
+    "pages/home/home",
+    "pages/classification/classification",
+    "pages/community/community",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,16 +13,24 @@
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#CA0E2D",
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/home/home",
         "text": "首页"
       },
       {
         "pagePath": "pages/classification/classification",
         "text": "分类"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
       }
     ]
   },

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="head">
+        <nav navList="{{navList}}"></nav>
+    </view>
+    <view class="img-fall">
+    <img-fall list="{{imgFall}}"></img-fall>
+  </view>
+
+
+</view>
