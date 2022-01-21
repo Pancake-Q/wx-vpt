@@ -1,0 +1,7 @@
+/* components/goodList/goodList.wxss */
+.good-right{
+    height: 100vh;
+}
+.good-type{
+    height: 300rpx;
+}

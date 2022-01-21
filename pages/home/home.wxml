@@ -3,6 +3,7 @@
     <view class="head">
         <nav navList="{{navList}}"></nav>
     </view>
+    <title></title>
     <view class="img-fall">
     <img-fall list="{{imgFall}}"></img-fall>
   </view>

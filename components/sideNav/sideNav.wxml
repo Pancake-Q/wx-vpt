@@ -1,0 +1,12 @@
+<!--components/sideNav/sideNav.wxml-->
+<scroll-view class="good-left" scroll-y scroll-with-animation enhanced>
+<view class="{{leftCur===index? 'side-nav-item-left':'side-nav-item'}}" 
+wx:for="{{sideList}}" 
+wx:key="path"
+bindtap="headleNavSearch"
+data-index="{{index}}"
+scrollTops="{{scrollTops}}"
+>
+  <text class="side-nav-text">{{item.title}}</text>
+</view>
+</scroll-view>

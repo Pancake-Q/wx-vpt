@@ -5,6 +5,7 @@
     "pages/community/community",
     "pages/mine/mine"
   ],
+  "entryPagePath": "pages/classification/classification",
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

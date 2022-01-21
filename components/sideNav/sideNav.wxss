@@ -1,0 +1,27 @@
+/* components/sideNav/sideNav.wxss */
+.good-left {
+  flex-basis: 150rpx;
+  height: 100vh;
+}
+
+.side-nav-item {
+  padding: 0rpx 10rpx 10rpx 10rpx; 
+  margin: 0 10rpx 10rpx 10rpx;
+
+}
+
+.side-nav-item-left {
+  margin: 0 10rpx 10rpx 10rpx;
+  padding: 0rpx 10rpx 10rpx 0rpx;
+  border-left: 10rpx solid #CA0E2D;
+}
+
+.side-nav-text {
+  font-size: 15px;
+  font-weight: normal;
+}
+.good-left::-webkit-scrollbar {
+  width:0;
+  height:0;
+  color:transparent;
+  }

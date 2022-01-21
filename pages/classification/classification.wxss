@@ -1,1 +1,7 @@
 /* pages/classification/classification.wxss */
+.type{
+  display: flex;
+}
+good-list{
+  flex: 1;
+}

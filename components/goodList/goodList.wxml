@@ -1,0 +1,10 @@
+<!--components/goodList/goodList.wxml-->
+<scroll-view class="good-right"
+scroll-y
+scroll-with-animation
+scroll-into-view="scroll-{{rightCur}}"
+bindscroll="scrollLink" >
+  <view class="good-type" wx:for="{{goodList}}" wx:key="title" id="scroll-{{index}}">
+    <view>{{item.name}}</view>
+  </view>
+  </scroll-view>

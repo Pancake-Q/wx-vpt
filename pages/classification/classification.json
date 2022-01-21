@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "side-nav":"/components/sideNav/sideNav",
+    "good-list":"/components/goodList/goodList"
+  }
 }

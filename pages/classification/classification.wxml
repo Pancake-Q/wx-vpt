@@ -1,2 +1,10 @@
 <!--pages/classification/classification.wxml-->
-<text>pages/classification/classification.wxml</text>
+<view class="type" enable-flex>
+    <side-nav sideList="{{sideList}}"
+    scrollTops="{{scrollTops}}"
+    rightCur="{{rightCur}}"
+    leftCur="{{leftCur}}"
+    ></side-nav>
+    <good-list></good-list>
+
+</view>
