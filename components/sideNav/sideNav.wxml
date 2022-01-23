@@ -3,9 +3,8 @@
 <view class="{{leftCur===index? 'side-nav-item-left':'side-nav-item'}}" 
 wx:for="{{sideList}}" 
 wx:key="path"
-bindtap="headleNavSearch"
+bindtap="headleSelect"
 data-index="{{index}}"
-scrollTops="{{scrollTops}}"
 >
   <text class="side-nav-text">{{item.title}}</text>
 </view>

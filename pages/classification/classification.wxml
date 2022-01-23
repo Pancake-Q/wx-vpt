@@ -1,10 +1,17 @@
 <!--pages/classification/classification.wxml-->
 <view class="type" enable-flex>
-    <side-nav sideList="{{sideList}}"
-    scrollTops="{{scrollTops}}"
-    rightCur="{{rightCur}}"
+    <side-nav 
+    bind:handleSelect="handleSelect"
+    sideList="{{sideList}}"
     leftCur="{{leftCur}}"
     ></side-nav>
-    <good-list></good-list>
+    <good-list
+    class="good-list"
+    scrollTops="{{scrollTops}}"
+    goodList="{{goodList}}"
+    bind:handleScroll="handleScroll"
+    >
+    </good-list>
+    
 
 </view>

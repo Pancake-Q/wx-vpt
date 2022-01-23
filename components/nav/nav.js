@@ -18,6 +18,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    headlerOnline:function(e){
+      const {dataset:{name,path}}=e.currentTarget
+      console.log(name,path)
+      this.triggerEvent('headlerOnline',{name,path})
+    }
   }
 })

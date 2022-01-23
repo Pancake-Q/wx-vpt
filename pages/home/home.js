@@ -10,25 +10,25 @@ Page({
         navList: [{
                 title: "拍买行",
                 name: "online",
-                path: "/online",
+                path: "/pages/home/onlive/onlive",
                 icon: "https://cdn01t.weipaitang.com/sky/common/houtaitp/image/20210730/0e75d9db26ed4881ba9293927fe6ef5e-W159H159",
             },
             {
                 title: "众筹",
                 name: "raise",
-                path: "/raise",
+                path: "/pages/home/raise/raise",
                 icon: "https://cdn01t.weipaitang.com/banner/2021012895caee20-f6dc-6c49-2210-f776e4063120-W207H207",
             },
             {
                 title: "直播",
                 name: "live",
-                path: "/live",
+                path: "/pages/home/live/live",
                 icon: "https://cdn.weipaitang.com/banner/20201112a7d80228-8ad1-70d2-d186-454a03d0f2ff-W159H159",
             },
             {
                 title: "鉴宝",
                 name: "treasure",
-                path: "/treasure",
+                path: "/pages/home/treasure/treasure",
                 icon: "https://cdn01t.weipaitang.com/sky/common/houtaitp/image/20210730/c32b2f9b731744c3908adeea34c463f8-W159H159",
             },
         ]
@@ -46,11 +46,17 @@ Page({
         })
 
     },
+    headlerOnline:function(e){
+       console.log(e.detail)
+       const {name,path}=e.detail
+       wx.navigateTo({
+        url: path,
+      })
+    },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        console.log("aa")
         this.getImgFall()
     },
 

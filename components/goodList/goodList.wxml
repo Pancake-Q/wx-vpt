@@ -2,9 +2,15 @@
 <scroll-view class="good-right"
 scroll-y
 scroll-with-animation
-scroll-into-view="scroll-{{rightCur}}"
-bindscroll="scrollLink" >
-  <view class="good-type" wx:for="{{goodList}}" wx:key="title" id="scroll-{{index}}">
+enhanced
+bindscroll="scroll"
+>
+  <view 
+  class="good-type" 
+  wx:for="{{goodList}}" 
+  wx:key="title" 
+  data-name="name"
+  >
     <view>{{item.name}}</view>
   </view>
-  </scroll-view>
+</scroll-view>

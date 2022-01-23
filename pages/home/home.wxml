@@ -1,7 +1,10 @@
 <!--index.wxml-->
 <view class="page">
     <view class="head">
-        <nav navList="{{navList}}"></nav>
+        <nav 
+        navList="{{navList}}" 
+        bind:headlerOnline="headlerOnline"
+        ></nav>
     </view>
     <title></title>
     <view class="img-fall">
